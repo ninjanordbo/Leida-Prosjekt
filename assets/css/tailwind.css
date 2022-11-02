@@ -754,6 +754,14 @@ video {
   z-index: 0;
 }
 
+.col-span-3{
+  grid-column: span 3 / span 3;
+}
+
+.col-span-full{
+  grid-column: 1 / -1;
+}
+
 .-mx-4{
   margin-left: -1rem;
   margin-right: -1rem;
@@ -937,6 +945,10 @@ video {
   display: inline-flex;
 }
 
+.grid{
+  display: grid;
+}
+
 .hidden{
   display: none;
 }
@@ -995,6 +1007,16 @@ video {
 
 .h-4{
   height: 1rem;
+}
+
+.h-fit{
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.max-h-8{
+  max-height: 2rem;
 }
 
 .min-h-screen{
@@ -1139,6 +1161,14 @@ video {
   max-width: 960px;
 }
 
+.max-w-7xl{
+  max-width: 80rem;
+}
+
+.max-w-screen-2xl{
+  max-width: 1320px;
+}
+
 .flex-1{
   flex: 1 1 0%;
 }
@@ -1199,6 +1229,10 @@ video {
   resize: both;
 }
 
+.grid-cols-6{
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -1209,6 +1243,10 @@ video {
 
 .flex-wrap{
   flex-wrap: wrap;
+}
+
+.place-items-center{
+  place-items: center;
 }
 
 .items-start{
@@ -1241,6 +1279,15 @@ video {
 
 .gap-4{
   gap: 1rem;
+}
+
+.gap-y-10{
+  row-gap: 2.5rem;
+}
+
+.gap-x-5{
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
 }
 
 .space-y-8 > :not([hidden]) ~ :not([hidden]){
@@ -1941,6 +1988,15 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.invert{
+  --tw-invert: invert(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.filter{
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .backdrop-filter{
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
@@ -2392,6 +2448,14 @@ body {
     left: 1.5rem;
   }
 
+  .sm\:col-span-2{
+    grid-column: span 2 / span 2;
+  }
+
+  .sm\:col-span-3{
+    grid-column: span 3 / span 3;
+  }
+
   .sm\:flex{
     display: flex;
   }
@@ -2631,6 +2695,10 @@ body {
     right: 1rem;
   }
 
+  .lg\:col-span-1{
+    grid-column: span 1 / span 1;
+  }
+
   .lg\:mr-0{
     margin-right: 0px;
   }
@@ -2745,6 +2813,10 @@ body {
 
   .lg\:max-w-\[565px\]{
     max-width: 565px;
+  }
+
+  .lg\:grid-cols-5{
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   .lg\:flex-row{
