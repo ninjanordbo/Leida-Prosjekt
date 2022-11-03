@@ -38,6 +38,19 @@ module.exports = {
         "switch-1": "0px 0px 5px rgba(0, 0, 0, 0.15)",
         testimonial: "0px 60px 120px -20px #EBEFFD",
       },
+      animation: {
+        'linethrough': 'linethrough 4s linear forwards',
+      },
+      keyframes: {
+        linethrough: {
+          '100%': {
+            'transform': 'translateX(0)'
+          },
+        },
+      },
+      transitionTimingFunction: {
+        bounce: 'cubic-bezier(0.68, -0.55, 0.265, 1.55)',
+      },
     },
   },
   variants: {
