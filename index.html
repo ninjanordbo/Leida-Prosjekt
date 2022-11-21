@@ -27,7 +27,7 @@
                                         <div> <button id="navbarToggler" class="absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"> <span class="relative my-[6px] block h-[2px] w-[30px] bg-white"></span> <span class="relative my-[6px] block h-[2px] w-[30px] bg-white"></span> <span class="relative my-[6px] block h-[2px] w-[30px] bg-white"></span> </button>
                                                 <nav id="navbarCollapse" class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:py-0 lg:px-4 lg:shadow-none xl:px-6">
                                                         <ul class="blcok lg:flex">
-                                                                <li class="group relative"> <a href="#home" class="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70"> Start </a> </li>
+                                                                <li class="group relative"> <a href="#home" class="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 lg:text-primary lg:group-hover:text-white lg:group-hover:opacity-70"> Start </a> </li>
                                                                 <li class="group relative"> <a href="#about" class="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-12"> Om Leida </a> </li>
                                                                 <li class="group relative"> <a href="#team" class="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-12"> Møt teamet </a> </li>
                                                                 <li class="group relative"> <a href="video.html#video" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-12"> Videoarkiv </a> </li>
@@ -47,7 +47,8 @@
 <!-- ====== Hero Section Start -->
 <div class="relative overflow-hidden bg-no-repeat bg-cover" style="background-position: 50%; background-image: url('./assets/leida/img/Even\ Hansen-1.jpg'); height: 500px;"></div>
 
-    <div class="container mx-auto px-6 md:px-12 xl:px-32">
+    
+<div id="home" class="container mx-auto px-6 md:px-12 xl:px-32">
       <div class=" text-gray-800">
         <div class="block rounded-lg shadow-lg px-6 py-12 md:py-16 md:px-12" style="margin-top: -170px; background: hsla(0, 0%, 100%, 0.7); backdrop-filter: blur(30px);">
           <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">Kvalifisering <br /><span class="text-primary">for arbeid</span></h1>
@@ -184,11 +185,6 @@
 
 
 <!-- ====== Features Section Start -->
-
-
-
-
-
         <section class="pt-20 pb-8 lg:pt-[120px] lg:pb-[70px]">
                 <div class="container">
                         <div class="-mx-4 flex flex-wrap">
@@ -255,10 +251,9 @@
 
         
 <!-- ====== Testimonials Start ====== -->
-
         <section id="testimonials" class="pt-20 md:pt-[120px]">
                 <div class="container px-4">
-                        <div class="flex flex-wrap">
+                        <div  class="flex flex-wrap">
                                 <div class="mx-4 w-full">
                                         <div class="mx-auto mb-[60px] max-w-[620px] text-center lg:mb-20"> <span class="mb-2 block text-lg font-semibold text-primary"> Tilbakemeldinger </span>
                                                 <h2 class="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[42px]"> Hva sier kandidatene selv? </h2>
@@ -267,7 +262,7 @@
                                 </div>
                         </div>
                         <div class="flex flex-wrap">
-                                <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+                                <div  class="w-full px-4 md:w-1/2 lg:w-1/3">
                                         <div class="ud-single-testimonial wow fadeInUp mb-12 bg-white p-8 shadow-testimonial" data-wow-delay=".1s
               ">
                                                 <div class="ud-testimonial-ratings mb-3 flex items-center"> </div>
@@ -321,7 +316,7 @@
 <!-- ====== Testimonials End ====== -->
 <!-- Team start -->
 
-<div class="flex items-center justify-center min-h-screen bg-white py-48">
+<div id="team" class="flex items-center justify-center min-h-screen bg-white py-48">
     <div class="flex flex-col">
         <div class="flex flex-col mt-8">
             <!-- Meet the Team -->
@@ -365,13 +360,13 @@
                                 </div>
 
                                 <!-- Social Icons -->
-                                <div class="flex items-center justify-center opacity-50 hover:opacity-100
+                                <div class="flex items-center justify-center opacity-100 hover:opacity-50
                                 transition-opacity duration-300">
                              
 
                                     <!-- Email -->
-                                    <a href="#" class="flex rounded-full hover:primary h-10 w-10">
-                                        <i class="mdi mdi-email text-black mx-auto mt-2"></i>
+                                    <a href="#" class="flex rounded-full hover:primary ">
+                                        <i class="mdi mdi-email text-primary mx-auto mt-2"></i>
                                     </a>
                                 </div>
                             </div>
@@ -620,11 +615,12 @@
                 <section class="bg-primary">
                         <div class="max-w-screen-2xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
                                 <nav class="flex flex-wrap justify-center -mx-5 -my-2">
-                                        <div class="px-5 py-2"> <a href="#home" class="text-base leading-6 text-white hover:text-black"> Start </a> </div>
-                                        <div class="px-5 py-2"> <a href="#about" class="text-white leading-6 text-white hover:text-black"> Om Leida </a> </div>
-                                        <div class="px-5 py-2"> <a href="#team" class="text-white leading-6 text-white hover:text-black"> Møt teamet </a> </div>
-                                        <div class="px-5 py-2"> <a href="#" class="text-white leading-6 text-white hover:text-black"> Personvern </a> </div>
-                                        <div class="px-5 py-2"> <a href="#contact" class="textwhite leading-6 text-white hover:text-black"> Kontakt </a> </div>
+                                        <li class="group relative"> <a href="#home" class="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 lg:text-primary lg:group-hover:text-white lg:group-hover:opacity-70"> Start </a> </li>
+                                        <li class="px-5 py-2 group relative"> <a href="#home" class="ud-menu-scroll text-base leading-6 text-white hover:text-black"> Start </a> </li>
+                                        <li class="px-5 py-2 group relative"> <a href="#about" class=" leading-6 text-white hover:text-black"> Om Leida </a> </li>
+                                        <li class="px-5 py-2 group relative"> <a href="#team" class=" leading-6 text-white hover:text-black"> Møt teamet </a> </li>
+                                        <li class="px-5 py-2 group relative"> <a href="#" class=" leading-6 text-white hover:text-black"> Personvern </a> </li>
+                                        <li class="px-5 py-2 group relative"> <a href="#contact" class="textwhite leading-6 text-white hover:text-black"> Kontakt </a> </li>
                                 </nav>
                                 <div class="flex justify-center mt-8 space-x-6"> <a href="#" class="text-white hover:text-black"> <span class="sr-only">Facebook</span> <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
                                                         <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path>
