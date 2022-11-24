@@ -966,6 +966,12 @@ video {
   height: 1.5rem;
 }
 
+.h-fit{
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .max-h-16{
   max-height: 4rem;
 }
@@ -1128,6 +1134,10 @@ video {
 
 .flex-wrap{
   flex-wrap: wrap;
+}
+
+.place-items-center{
+  place-items: center;
 }
 
 .items-start{
@@ -1718,6 +1728,11 @@ video {
 .text-\[\#e4e4e4\]{
   --tw-text-opacity: 1;
   color: rgb(228 228 228 / var(--tw-text-opacity));
+}
+
+.text-black{
+  --tw-text-opacity: 1;
+  color: rgb(33 43 54 / var(--tw-text-opacity));
 }
 
 .opacity-100{
