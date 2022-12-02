@@ -802,6 +802,11 @@ video {
   margin-bottom: -0.5rem;
 }
 
+.my-5{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .mb-8{
   margin-bottom: 2rem;
 }
@@ -1056,6 +1061,10 @@ video {
   width: 3rem;
 }
 
+.min-w-0{
+  min-width: 0px;
+}
+
 .max-w-full{
   max-width: 100%;
 }
@@ -1118,6 +1127,10 @@ video {
 
 .max-w-screen-xl{
   max-width: 1140px;
+}
+
+.flex-auto{
+  flex: 1 1 auto;
 }
 
 .flex-shrink-0{
@@ -1716,6 +1729,10 @@ video {
   font-weight: 300;
 }
 
+.font-extrabold{
+  font-weight: 800;
+}
+
 .leading-loose{
   line-height: 2;
 }
@@ -1859,6 +1876,10 @@ video {
 .text-gray-400{
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.underline{
+  text-decoration-line: underline;
 }
 
 .opacity-100{
@@ -2346,6 +2367,10 @@ body {
     padding: 2.5rem;
   }
 
+  .sm\:p-8{
+    padding: 2rem;
+  }
+
   .sm\:px-12{
     padding-left: 3rem;
     padding-right: 3rem;
@@ -2463,6 +2488,10 @@ body {
 
   .md\:p-14{
     padding: 3.5rem;
+  }
+
+  .md\:p-16{
+    padding: 4rem;
   }
 
   .md\:px-\[60px\]{
@@ -2643,6 +2672,10 @@ body {
     display: none;
   }
 
+  .lg\:max-h-full{
+    max-height: 100%;
+  }
+
   .lg\:w-full{
     width: 100%;
   }
@@ -2697,8 +2730,16 @@ body {
     margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .lg\:overflow-visible{
+    overflow: visible;
+  }
+
   .lg\:bg-transparent{
     background-color: transparent;
+  }
+
+  .lg\:p-32{
+    padding: 8rem;
   }
 
   .lg\:py-0{
@@ -2781,6 +2822,10 @@ body {
 
   .lg\:pb-20{
     padding-bottom: 5rem;
+  }
+
+  .lg\:pb-16{
+    padding-bottom: 4rem;
   }
 
   .lg\:text-\[40px\]{
@@ -2907,6 +2952,11 @@ body {
   .xl\:px-32{
     padding-left: 8rem;
     padding-right: 8rem;
+  }
+
+  .xl\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .xl\:pr-16{
