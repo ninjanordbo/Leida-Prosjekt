@@ -769,6 +769,16 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.my-20{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.my-10{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .mb-12{
   margin-bottom: 3rem;
 }
